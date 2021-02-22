@@ -1,0 +1,27 @@
+.for-you-tag {
+  display: flex;
+  .left-content-you-tag {
+    h1 {
+      font-size: 1.763em;
+      padding-top: 30px;
+    }
+    h4 {
+      padding-top: 10px;
+    }
+    h6 {
+      font-size: 12px;
+      font-size: 0.75rem;
+      line-height: 1.66667em;
+      letter-spacing: 0.1px;
+      transition: opacity 0.25s ease-in-out;
+      text-decoration: none;
+      padding-top: 10px;
+    }
+  }
+  .right-content-you-tag {
+    img{
+      width: 30%;
+      height: 30%;
+    }
+  }
+}

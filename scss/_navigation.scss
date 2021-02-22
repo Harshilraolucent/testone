@@ -1,57 +1,359 @@
-// .center-content ul{
-//   display: flex;
-//   position: absolute;
-//   }
-  
-//   .center-content li{
-//     padding: 10px 10px;
+.center-content {
+  .ul-list {
+    display: flex;
+    padding: 10px;
+    li {
+      padding: 0px 10px;
+    }
+  }
 
-//   }
-  
-//   .new-arrivales ul{
-//     display: block;
-//     columns: 2;
-//     -webkit-columns: 2;
-//     -moz-columns: 2;
-//     padding: 10px 5px;
-//     // position: absolute ;
-//     width: 1016px;
-//     height: 260px;
-// border: 1px solid black;
-//   }
-//   .new-arrivales li{
+  a:hover {
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+  }
+
+  // new-arrivales list
+  .new-arrivales:hover .megamenu-new-arrivales {
+    max-height: inherit;
+    opacity: 1;
+  }
+
+  .megamenu-new-arrivales {
+    width: 1016px;
+    height: 260px;
+   
+    opacity: 0;
+    overflow: visible;
+    text-align: center;
+    transition: opacity 300ms ease;
+    position: absolute;
+    left: 180px;
+    top: 85px;
+    background-color: white;
+
+    .main-list-new-arrivales {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+      .list-one-new-arrivales {
+        padding: 20px;
+        height: 220px;
+        li {
+          padding: 10px;
+        }
+
+        .list-all-new-arrivales {
+          columns: 2;
+          -webkit-columns: 2;
+          -moz-columns: 2;
+          li {
+            text-align: left;
+          }
+        }
+      }
+      .list-two-new-arrivales {
+        img {
+          width: 416px;
+          height: 260px;
+          float: right;
+        }
+      }
+    }
+  }// mega menu for new arrivals 
+
+  // clothing list
+  .clothing:hover .megamenu-clothing {
+    max-height: inherit;
+    opacity: 1;
+  }
+
+  .megamenu-clothing {
+    width: 1016px;
+    height: 260px;
+   
+    opacity: 0;
+    overflow: visible;
+    text-align: center;
+    transition: opacity 300ms ease;
+    position: absolute;
+    left: 180px;
+    top: 85px;
+    background-color: white;
+
+    .main-list-clothing{
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+      .list-one-clothing {
+        padding: 20px;
+        height: 220px;
+        li {
+          padding: 10px;
+        }
+
+        .list-all-clothing {
+          columns: 2;
+          -webkit-columns: 2;
+          -moz-columns: 2;
+          li {
+            text-align: left;
+          }
+        }
+      }
+      .list-two-clothing {
+        float: right;
+        img {
+          width: 416px;
+          height: 260px;
+          
+        }
+      }
+    }
+  }// mega menu for clothing
+
+  //plus list
+  .plus:hover .megamenu-plus {
+    max-height: inherit;
+    opacity: 1;
+  }
+
+  .megamenu-plus {
+    width: 1016px;
+    height: 260px;
     
-//     width: 300px;
-    
-//   }
+    opacity: 0;
+    overflow: visible;
+    text-align: center;
+    transition: opacity 300ms ease;
+    position: absolute;
+    left: 180px;
+    top: 85px;
+    background-color: white;
 
+    .main-list-plus{
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+      .list-one-plus {
+        padding: 20px;
+        height: 220px;
+        li {
+          padding: 10px;
+        }
 
-.container{
-  width: 1016px;
-  height: 260px;
-  border: 1px solid black;
-  overflow: hidden;
-  columns: 2;
-  -webkit-columns: 3;
-  -moz-columns: 2;
-  display: flex;
-}
-.container-list{
-  display: inline-block;
+        .list-all-plus {
+          columns: 2;
+          -webkit-columns: 2;
+          -moz-columns: 2;
+          li {
+            text-align: left;
+          }
+        }
+      }
+      .list-two-plus {
+        img {
+          width: 416px;
+          height: 260px;
+          float: right;
+        }
+      }
+    }
+  }// mega menu for plus
 
-}
-.container-list ul{
-   padding: 10px;
-   display: inline-block;
-}
-.container-list li{
-  padding: 10px;
+    //collections list
+    .collections:hover .megamenu-collections {
+      max-height: inherit;
+      opacity: 1;
+    }
   
+    .megamenu-collections {
+      width: 1016px;
+      height: 260px;
+     
+      opacity: 0;
+      overflow: visible;
+      text-align: center;
+      transition: opacity 300ms ease;
+      position: absolute;
+      left: 180px;
+      top: 85px;
+      background-color: white;
+  
+      .main-list-collections{
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        .list-one-collections {
+          padding: 20px;
+          height: 220px;
+          li {
+            padding: 10px;
+          }
+  
+          .list-all-collections {
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+            li {
+              text-align: left;
+            }
+          }
+        }
+        .list-two-collections {
+          img {
+            width: 416px;
+            height: 260px;
+            float: right;
+          }
+        }
+      }
+    }// mega menu for collections
 
-}
-.container-img{
-  width: 416px;
-  height: 260px;
-  display: block;
-  float: right;
-}
+      //accessories list
+      .accessories:hover .megamenu-accessories {
+        max-height: inherit;
+        opacity: 1;
+      }
+    
+      .megamenu-accessories {
+        width: 1016px;
+        height: 260px;
+       
+        opacity: 0;
+        overflow: visible;
+        text-align: center;
+        transition: opacity 300ms ease;
+        position: absolute;
+        left: 180px;
+        top: 85px;
+        background-color: white;
+    
+        .main-list-accessories{
+          columns: 2;
+          -webkit-columns: 2;
+          -moz-columns: 2;
+          .list-one-accessories {
+            padding: 20px;
+            height: 220px;
+            li {
+              padding: 10px;
+            }
+    
+            .list-all-accessories {
+              columns: 2;
+              -webkit-columns: 2;
+              -moz-columns: 2;
+              li {
+                text-align: left;
+              }
+            }
+          }
+          .list-two-accessories {
+            img {
+              width: 416px;
+              height: 260px;
+              float: right;
+            }
+          }
+        }
+      }// mega menu for accessories
+
+       //home list
+       .home:hover .megamenu-home {
+        max-height: inherit;
+        opacity: 1;
+      }
+    
+      .megamenu-home {
+        width: 1016px;
+        height: 260px;
+       
+        opacity: 0;
+        overflow: visible;
+        text-align: center;
+        transition: opacity 300ms ease;
+        position: absolute;
+        left: 180px;
+        top: 85px;
+        background-color: white;
+    
+        .main-list-home{
+          columns: 2;
+          -webkit-columns: 2;
+          -moz-columns: 2;
+          .list-one-home {
+            padding: 20px;
+            height: 220px;
+            li {
+              padding: 10px;
+            }
+    
+            .list-all-home {
+              columns: 2;
+              -webkit-columns: 2;
+              -moz-columns: 2;
+              li {
+                text-align: left;
+              }
+            }
+          }
+          .list-two-home {
+            img {
+              width: 416px;
+              height: 260px;
+              float: right;
+            }
+          }
+        }
+      }// mega menu for home
+
+       //sale list
+       .sale:hover .megamenu-sale {
+        max-height: inherit;
+        opacity: 1;
+      }
+    
+      .megamenu-sale {
+        width: 1016px;
+        height: 260px;
+       
+        opacity: 0;
+        overflow: visible;
+        text-align: center;
+        transition: opacity 300ms ease;
+        position: absolute;
+        left: 180px;
+        top: 85px;
+        background-color: white;
+    
+        .main-list-sale{
+          columns: 2;
+          -webkit-columns: 2;
+          -moz-columns: 2;
+          .list-one-sale {
+            padding: 20px;
+            height: 220px;
+            li {
+              padding: 10px;
+            }
+    
+            .list-all-sale {
+              columns: 2;
+              -webkit-columns: 2;
+              -moz-columns: 2;
+              li {
+                text-align: left;
+              }
+            }
+          }
+          .list-two-sale {
+            img {
+              width: 416px;
+              height: 260px;
+              float: right;
+            }
+          }
+        }
+      }// mega menu for sale
+}//end of the class

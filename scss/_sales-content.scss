@@ -1,0 +1,53 @@
+.sales-content {
+  display: flex;
+  margin: 0px 75px;
+
+  .left-image {
+    padding: 0px 15px;
+    img {
+      width: 458px;
+      height: 624px;
+    }
+    h2 {
+      font-size: 1.763em;
+      padding-top: 30px;
+    }
+    h4 {
+      padding-top: 10px;
+    }
+    h6 {
+      font-size: 12px;
+      font-size: 0.75rem;
+      line-height: 1.66667em;
+      letter-spacing: 0.1px;
+      transition: opacity 0.25s ease-in-out;
+    text-decoration: none;
+    padding-top: 10px;
+    }
+  }
+  .right-image {
+    padding-left: 105px;
+      padding-top: 55px;
+    img {
+      width: 630px;
+      height: 508px;
+      
+    }
+    h2 {
+      font-size: 1.763em;
+      padding-top: 30px;
+    }
+    h4 {
+      padding-top: 10px;
+    }
+    h6 {
+      font-size: 12px;
+      font-size: 0.75rem;
+      line-height: 1.66667em;
+      letter-spacing: 0.1px;
+      transition: opacity 0.25s ease-in-out;
+      text-decoration: none;
+      padding-top: 10px;
+    }
+  }
+}

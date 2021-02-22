@@ -1,0 +1,15 @@
+.main-information {
+  .information-left {
+    display: inline-block;
+    vertical-align: top;
+    padding: 40px;
+    list-style: none;
+    width: 300px;
+    a{
+      padding: 10px;
+    }
+    li{
+      padding-bottom: 15px;
+    }
+  }
+}
