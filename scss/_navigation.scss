@@ -1,7 +1,14 @@
 .center-content {
+  // padding: 14px 5px 8px 12px;
   .ul-list {
     display: flex;
     padding: 10px;
+    padding-left: 0px;
+    font-weight: 400;
+    line-height: 1.625em;
+    letter-spacing: 0;
+  
+    font-size: 1rem;
     li {
       padding: 0px 10px;
     }
@@ -29,7 +36,7 @@
     transition: opacity 300ms ease;
     position: absolute;
     left: 180px;
-    top: 85px;
+    top: 116px;
     background-color: white;
 
     .main-list-new-arrivales {
@@ -78,7 +85,7 @@
     transition: opacity 300ms ease;
     position: absolute;
     left: 180px;
-    top: 85px;
+    top: 116px;
     background-color: white;
 
     .main-list-clothing{
@@ -128,7 +135,7 @@
     transition: opacity 300ms ease;
     position: absolute;
     left: 180px;
-    top: 85px;
+    top: 116px;
     background-color: white;
 
     .main-list-plus{
@@ -177,7 +184,7 @@
       transition: opacity 300ms ease;
       position: absolute;
       left: 180px;
-      top: 85px;
+      top: 116px;
       background-color: white;
   
       .main-list-collections{
@@ -226,7 +233,7 @@
         transition: opacity 300ms ease;
         position: absolute;
         left: 180px;
-        top: 85px;
+        top: 116px;
         background-color: white;
     
         .main-list-accessories{
@@ -275,7 +282,7 @@
         transition: opacity 300ms ease;
         position: absolute;
         left: 180px;
-        top: 85px;
+        top: 116px;
         background-color: white;
     
         .main-list-home{
@@ -324,7 +331,7 @@
         transition: opacity 300ms ease;
         position: absolute;
         left: 180px;
-        top: 85px;
+        top: 116px;
         background-color: white;
     
         .main-list-sale{

@@ -1,9 +1,18 @@
-.header{
-  margin: 0px 30px;
-  // border-bottom: 1px solid black; 
-  padding: 10px 0;
-}
-.header .mearger{
-  display: flex;
-  
+.main-header-container {
+
+  // position: fixed;
+  // background-color: white;
+  width: 100%;
+  .header-wrapper {
+    background-color: white;
+    height: 90px;
+    .header {
+      margin: 0px 30px;
+      // border-bottom: 1px solid black;
+      padding: 23px 0;
+    }
+    .header .mearger {
+      display: flex;
+    }
+  }
 }

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/montserrat/montserrat_n4.1d581f6d4bf1a97f4cbc0b88b933bc136d38d178.woff2?&hmac=b59fde63ef4778517ca8e872395c570039764aca6853b730acbc758c376d9202") format("woff2"),
+       url("https://fonts.shopifycdn.com/montserrat/montserrat_n4.cfce41a967758ce5a9b7d48daeb5b028fd977a9b.woff?&hmac=b6cef1bb12cdc3d77c249b06c507efafbf638d8f03ecf504ea0cef6a2e187c1b") format("woff");
+}
+
+  @font-face {
+  font-family: "Basic Commercial";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/basic_commercial/basiccommercial_n4.161334af349df25a2cfd2ef229e3fe638b6471c6.woff2?&hmac=efd8962af134e18e88c915b1fe7dcac46efc24ab66c285a147bc4e141444b5f5") format("woff2"),
+       url("https://fonts.shopifycdn.com/basic_commercial/basiccommercial_n4.db1c9e0093cb75b784ac848dd289a1fa6d164d13.woff?&hmac=2217a6a08c3f93c4953b9663388971116e13ef674f9c44756026e342d5f75196") format("woff");
+}
+
+body{
+  font-family: "Montserrat";
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Basic Commercial";
+}

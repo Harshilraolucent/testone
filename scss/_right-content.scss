@@ -1,0 +1,42 @@
+.right-content{
+  padding-left: 60px;
+  
+  .topnav{
+margin-left:55px ;
+      display: flex;
+      a{
+        padding: 5px;
+      }
+
+  }
+  .search{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-right: 23px;
+    outline: none;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 0;
+    border-radius: 0;
+    background: transparent;
+    color: #000;
+    text-indent: 0;
+    padding: 0 0 0 5px;
+    font-size: 12px;
+    width: 145px;
+  }
+  .icon{
+    transform: rotate(90deg);
+    color: black;
+    position: absolute;
+    top: 69px;
+    left: 1124px;
+  }
+  a{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+  }
+  
+}
+
