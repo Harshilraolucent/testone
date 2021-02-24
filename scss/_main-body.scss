@@ -1,18 +1,16 @@
 body {
-  background-color: #fefaf7;
-  font-family: "Avenir", sans-serif;
-  color: #626262;
- 
-  line-height: 1.625em;
-  letter-spacing: 0;
-  font-size: 16px;
-  font-size: 1rem;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  .images {
-    img {
-      max-width: 100%;
-      margin: 50px 0px;
+    background-color: #fefaf7;
+    font-family: "Avenir", sans-serif;
+    // color: #626262;
+
+    line-height: 1.625em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    .images {
+      img {
+        max-width: 100%;
+        margin: 50px 0px;
+      }
     }
-  }
+  
 }

@@ -1,8 +1,7 @@
 .center-content {
-  // padding: 14px 5px 8px 12px;
   .ul-list {
     display: flex;
-    padding: 10px;
+    // padding: 10px;
     padding-left: 0px;
     font-weight: 400;
     line-height: 1.625em;
@@ -10,7 +9,8 @@
   
     font-size: 1rem;
     li {
-      padding: 0px 10px;
+      height: 48px;
+      padding: 12px 16px 4px 4px;
     }
   }
 
@@ -30,12 +30,12 @@
     width: 1016px;
     height: 260px;
    
-    opacity: 0;
+    // opacity: 0;
     overflow: visible;
     text-align: center;
     transition: opacity 300ms ease;
     position: absolute;
-    left: 180px;
+    left: 147px;
     top: 116px;
     background-color: white;
 
@@ -47,7 +47,7 @@
         padding: 20px;
         height: 220px;
         li {
-          padding: 10px;
+          padding: 5px;
         }
 
         .list-all-new-arrivales {
