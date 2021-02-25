@@ -1,0 +1,113 @@
+// * {
+// 	margin: 0;
+// 	padding: 0;
+// 	text-decoration: none;
+// 	list-style: none;
+// 	box-sizing: border-box;
+// }
+// nav {
+// 	background: white;
+// 	height: 80px;
+// 	.logo {
+// 		img {
+// 			width: 166px;
+// 			line-height: 80px;
+// 		}
+// 	}
+// 	ul {
+// 		float: right;
+// 		margin-right: 20px;
+// 		li {
+// 			display: inline-block;
+// 			line-height: 80px;
+// 			margin: 0 5px;
+// 			a {
+// 				color: black;
+// 				font-size: 17px;
+// 				text-transform: uppercase;
+// 			}
+// 		}
+// 	}
+// }
+// a.active {
+// 	background: white;
+// 	transition: .5s;
+// }
+// a {
+// 	&:hover {
+// 		background: white;
+// 		transition: .5s;
+// 	}
+// }
+// .checkbtn {
+// 	font-size: 30px;
+// 	color: black;
+// 	float: left;
+// 	line-height: 80px;
+// 	margin-right: 40px;
+// 	cursor: pointer;
+// 	display: none;
+// }
+// #check {
+// 	display: none;
+// }
+// @media (max-width:952px) {
+// 	nav {
+// 		.logo {
+// 			img {
+// 				width: 120px;
+// 				position: fixed;
+// 				right: 366;
+// 			}
+// 		}
+// 		ul {
+// 			li {
+// 				a {
+// 					font-size: 16px;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+// @media (max-width:858px) {
+// 	.checkbtn {
+// 		display: block;
+// 	}
+// 	ul {
+// 		position: fixed;
+// 		width: 100%;
+// 		height: 100vh;
+// 		top: 80px;
+// 		left: -100%;
+// 		text-align: left;
+// 		padding: 10px;
+// 	}
+// 	nav {
+// 		ul {
+// 			li {
+// 				display: block;
+// 				margin: 50px 0;
+// 				line-height: 30px;
+// 				a {
+// 					font-size: 20px;
+// 				}
+// 			}
+// 		}
+// 	}
+// 	a {
+// 		&:hover {
+// 			background: none;
+// 			color: black;
+// 		}
+// 	}
+// 	a.active {
+// 		background: none;
+// 		color: black;
+// 	}
+// 	#check :checked ~	ul {
+// 					left: 0;
+// 				}
+			
+// 		}
+	
+// }

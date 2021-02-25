@@ -9,6 +9,13 @@
     .main-header-container .header-wrapper .header .mearger {
       display: flex; }
 
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -54,6 +61,7 @@ table {
 
 .center-content .ul-list {
   display: flex;
+  padding: 10px;
   padding-left: 0px;
   font-weight: 400;
   line-height: 1.625em;
@@ -68,39 +76,41 @@ table {
   color: black;
   cursor: pointer; }
 
-.center-content .new-arrivales:hover .megamenu-new-arrivales {
+.center-content .new-arrivals:hover .megamenu-new-arrivals {
   max-height: inherit;
   opacity: 1; }
 
-.center-content .megamenu-new-arrivales {
+.center-content .megamenu-new-arrivals {
   width: 1016px;
   height: 260px;
+  opacity: 0;
   overflow: visible;
   text-align: center;
   transition: opacity 300ms ease;
   position: absolute;
-  left: 147px;
+  left: 180px;
   top: 116px;
   background-color: white; }
-  .center-content .megamenu-new-arrivales .main-list-new-arrivales {
+  .center-content .megamenu-new-arrivals .main-list-new-arrivals {
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2; }
-    .center-content .megamenu-new-arrivales .main-list-new-arrivales .list-one-new-arrivales {
+    .center-content .megamenu-new-arrivals .main-list-new-arrivals .list-one-new-arrivals {
       padding: 20px;
       height: 220px; }
-      .center-content .megamenu-new-arrivales .main-list-new-arrivales .list-one-new-arrivales li {
-        padding: 5px; }
-      .center-content .megamenu-new-arrivales .main-list-new-arrivales .list-one-new-arrivales .list-all-new-arrivales {
+      .center-content .megamenu-new-arrivals .main-list-new-arrivals .list-one-new-arrivals li {
+        padding: 10px; }
+      .center-content .megamenu-new-arrivals .main-list-new-arrivals .list-one-new-arrivals .list-all-new-arrivals {
         columns: 2;
         -webkit-columns: 2;
         -moz-columns: 2; }
-        .center-content .megamenu-new-arrivales .main-list-new-arrivales .list-one-new-arrivales .list-all-new-arrivales li {
+        .center-content .megamenu-new-arrivals .main-list-new-arrivals .list-one-new-arrivals .list-all-new-arrivals li {
           text-align: left; }
-    .center-content .megamenu-new-arrivales .main-list-new-arrivales .list-two-new-arrivales img {
-      width: 416px;
-      height: 260px;
+    .center-content .megamenu-new-arrivals .main-list-new-arrivals .list-two-new-arrivals {
       float: right; }
+      .center-content .megamenu-new-arrivals .main-list-new-arrivals .list-two-new-arrivals img {
+        width: 416px;
+        height: 260px; }
 
 .center-content .clothing:hover .megamenu-clothing {
   max-height: inherit;
@@ -408,8 +418,7 @@ body {
   .main-information .information-center {
     margin-top: 60px;
     padding-left: 93px;
-    padding-right: 93px;
-    width: 300px; }
+    padding-right: 93px; }
     .main-information .information-center li {
       list-style: none;
       padding-left: 20px; }
@@ -417,8 +426,7 @@ body {
     margin-top: 60px;
     padding-left: 145px;
     padding-right: 93px;
-    padding-bottom: 30px;
-    width: 300px; }
+    padding-bottom: 30px; }
     .main-information .information-right h2 {
       padding: 21px 60px 21px;
       font-size: 17px;
@@ -521,86 +529,25 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding: 5px; }
 
-@media only screen and (min-width: 300px) and (max-width: 767px) {
-  body {
-    background-color: lightgreen; } }
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  body {
-    background-color: lightblue; } }
-
-@media only screen and (min-width: 1025px) {
-  .header-wrapper {
-    background-color: lightpink;
-    width: 30%;
-    display: block; } }
-
-.mobile-nav {
-  overflow: hidden;
-  background-color: white;
-  position: relative; }
-  .mobile-nav .icon {
-    display: none; }
-  .mobile-nav .mobile-dropdown {
-    float: left;
-    overflow: hidden; }
-    .mobile-nav .mobile-dropdown .mobile-dropdown-btn {
-      font-size: 17px;
-      border: none;
-      outline: none;
-      color: white;
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit;
-      margin: 0; }
-  .mobile-nav .mobile-dropdown-content {
-    display: none;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mobile-logo img {
+    width: 166px;
+    padding: 0px 15px;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    z-index: 1; }
-  .mobile-nav a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: none;
-    text-align: center; }
+    top: 5px;
+    left: 230px; }
+  .mobile-center-logo {
+    padding-left: 10px;
+    height: 35px; }
+    .mobile-center-logo .mobile-logo {
+      padding-top: 5px;
+      position: relative; } }
 
-.mobile-nav a:hover, .mobile-dropdown:hover .mobile-dropdown-btn {
-  background-color: white;
-  color: black; }
-
-.mobile-content a:hover {
-  background-color: #ddd;
-  color: white; }
-
-.mobile-dropdown:hover .mobile-content {
-  display: block; }
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .mobile-nav .mobile-dropdown .mobile-dropdown-btn {
-    display: none; }
-  .mobile-nav a.icon {
-    float: left;
-    display: block; } }
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .mobile-nav.responsive {
-    position: relative; }
-  .mobile-nav.responsive .icon {
+@media (min-width: 300px) and (max-width: 767px) {
+  .mobile-logo {
     position: absolute;
-    right: 180;
-    top: 0; }
-  .mobile-nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-    position: absolute;
-    top: 85;
-    right: 45; }
-  .mobile-nav.responsive .dropdown .mobile-dropdown-btn {
-    display: block;
-    width: 100%;
-    text-align: left; } }
+    top: 5px;
+    left: 230px; }
+    .mobile-logo img {
+      position: fixed; } }
 

@@ -1,14 +1,14 @@
 .center-content {
   .ul-list {
     display: flex;
-    // padding: 10px;
+    padding: 10px;
     padding-left: 0px;
     font-weight: 400;
     line-height: 1.625em;
     letter-spacing: 0;
-  
     font-size: 1rem;
     li {
+      // width: 150px;
       height: 48px;
       padding: 12px 16px 4px 4px;
     }
@@ -21,36 +21,36 @@
   }
 
   // new-arrivales list
-  .new-arrivales:hover .megamenu-new-arrivales {
+  .new-arrivals:hover .megamenu-new-arrivals {
     max-height: inherit;
     opacity: 1;
   }
 
-  .megamenu-new-arrivales {
+  .megamenu-new-arrivals {
     width: 1016px;
     height: 260px;
    
-    // opacity: 0;
+    opacity: 0;
     overflow: visible;
     text-align: center;
     transition: opacity 300ms ease;
     position: absolute;
-    left: 147px;
+    left: 180px;
     top: 116px;
     background-color: white;
 
-    .main-list-new-arrivales {
+    .main-list-new-arrivals{
       columns: 2;
       -webkit-columns: 2;
       -moz-columns: 2;
-      .list-one-new-arrivales {
+      .list-one-new-arrivals {
         padding: 20px;
         height: 220px;
         li {
-          padding: 5px;
+          padding: 10px;
         }
 
-        .list-all-new-arrivales {
+        .list-all-new-arrivals {
           columns: 2;
           -webkit-columns: 2;
           -moz-columns: 2;
@@ -59,15 +59,17 @@
           }
         }
       }
-      .list-two-new-arrivales {
+      .list-two-new-arrivals {
+        float: right;
         img {
           width: 416px;
           height: 260px;
-          float: right;
+          
         }
       }
     }
-  }// mega menu for new arrivals 
+  }// mega menu for new-arrivals
+
 
   // clothing list
   .clothing:hover .megamenu-clothing {

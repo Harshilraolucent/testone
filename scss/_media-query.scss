@@ -1,0 +1,29 @@
+@media (min-width:768px) and (max-width:1024px){
+  .mobile-logo img{
+    width: 166px;
+    padding: 0px 15px;
+    position: absolute;
+    top: 5px;
+    left: 230px;
+  }
+  .mobile-center-logo{
+    padding-left:10px ;
+    height: 35px;
+    .mobile-logo{
+      padding-top: 5px;
+      position: relative;
+    }
+  }
+}
+
+@media (min-width:300px) and (max-width:767px){
+  .mobile-logo{
+    position: absolute;
+    top: 5px;
+    left: 230px;
+    img{
+      position: fixed;
+    }
+  }
+
+}
