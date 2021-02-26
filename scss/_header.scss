@@ -6,13 +6,16 @@
   .header-wrapper {
     background-color: white;
     height: 90px;
+   
     .header {
       margin: 0px 30px;
       // border-bottom: 1px solid black;
       padding: 23px 0;
-    }
-    .header .mearger {
-      display: flex;
+      .mearger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
 }

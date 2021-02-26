@@ -9,8 +9,7 @@
   <link rel="stylesheet" href="/theme/assets/slick.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" media="all">
-
+  
   <title>Document</title>
 </head>
 
@@ -22,30 +21,35 @@
         <h3> </h3>
       </div>
       <div class="header-wrapper ">
-        <div class="header ">
+        <div class="header">
           <div class="mearger">
-            <div class="mobile-three-bars">
-              <input type="checkbox" id="check">
-              <label for="check" class="checkbtn">
-              <a class="bar">&#8801</a>
+            <div class="mobile-three-bars desk-three-bars toggle">
+              <input type="checkbox" id="check" class="checker">
+              <label for="check" class="checkbtn ">
+                <a class="bar toggle">&#8801</a>
               </label>
             </div>
+            <div class="mobile-cross desk-cross">
+              <a >&#10005</a>
+            </div>
+           
+
             <!-- logo -->
-            <div class="left-logo mobile-logo">
-              <div class="logo logo-center">
+            <div class="left-logo mobile-logo mobile-logo-xs">
+              <div class="logo logo-center logo-center-xs">
                 <img src="/images/mobile-black_4db379ef-7019-4932-af1a-311f915a8885_grande.webp" alt="company logo">
               </div>
             </div>
 
             <!-- navigation bars -->
-            <div class="center-content">
+            <div class="center-content mobile-center-content">
               <nav>
-                <ul class="ul-list">
-                  <li><a class="new-arrivals active">New-Arrivals
-                      <div class="megamenu-new-arrivals">
-                        <ul class="main-list-new-arrivals">
-                          <li class="list-one-new-arrivals">
-                            <ul class="list-all-new-arrivals">
+                <ul class="ul-list ul-list-mobile ullist">
+                  <li><a class="new-arrivals toggle-list">New-Arrivals
+                      <div class="megamenu-new-arrivals mobile-megamenu">
+                        <ul class="main-list-new-arrivals main-list-new-arrivals-mobile">
+                          <li class="list-one-new-arrivals list-one-new-arrivals-mobile">
+                            <ul class="list-all-new-arrivals list-all-new-arrivals-mobile">
                               <li>Dresses</li>
                               <li>Tops</li>
                               <li>Bottoms</li>
@@ -225,14 +229,16 @@
 
               <div class="topnav">
                 <form action="#" class="form">
-                  <input type="text" placeholder="Search." class="search mobile-search">
-                  <svg class="icon icon-search mobile-icon-search" xmlns="http://www.w3.org/2000/svg"
+                  <input type="text" placeholder="Search." class="search ">
+                  <svg class="icon icon-search " xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
                     <path fill="#8e8e8e"
                       d="M1452.29,323.681l-0.21.156a7.626,7.626,0,1,1,1.74-1.739l-0.16.216,4.33,4.337-1.37,1.367Zm-4.67-11.992a5.961,5.961,0,1,0,4.21,1.742A5.917,5.917,0,0,0,1447.62,311.689Z"
                       transform="translate(-1440 -310.031)"></path>
                   </svg>
+                 
                 </form>
+             
                 <a href="#" class="desk-user"><svg xmlns="http://www.w3.org/2000/svg" width="15.03" height="17.969"
                     viewBox="0 0 18.03 17.969">
                     <path
@@ -246,10 +252,17 @@
                       d="m375.47 22.164c-60.061 0-99.769 32.796-119.47 54.493-19.697-21.697-59.406-54.493-119.47-54.493-80.336 0-136.53 74.228-136.53 161.58 0 63.878 32.211 188.32 247.93 304.06 5.04 2.705 11.101 2.703 16.138 0 215.72-115.74 247.93-240.18 247.93-304.06 0-85.37-54.581-161.58-136.53-161.58z">
                     </path>
                   </svg></a>
+                 <a href=""> <svg class="mobile-icon-search" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+                  <path fill="#8e8e8e"
+                    d="M1452.29,323.681l-0.21.156a7.626,7.626,0,1,1,1.74-1.739l-0.16.216,4.33,4.337-1.37,1.367Zm-4.67-11.992a5.961,5.961,0,1,0,4.21,1.742A5.917,5.917,0,0,0,1447.62,311.689Z"
+                    transform="translate(-1440 -310.031)"></path>
+                </svg></a>
                 <a href="#" class="desk-bag">My bag</a>
-                <a href="" class="mobile-bag">
-                <i class="fa fa-shopping-bag"></i>
-              </a>
+                <a href="" class="mobile-bag mobile-bag-hide">
+                
+                  <i class="fa fa-shopping-bag"></i>
+                </a>
                 <a href="#">0</a>
               </div>
             </div>
@@ -366,6 +379,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <!-- <script type="text/javascript" src="/javascript/slider.js"></script> -->
   <script type="text/javascript" src="/javascript/topbar.js"></script>
+  <script type="text/javascript" src="/javascript/mobile.js"></script>
   <script type="text/javascript" src="/javascript/slick.js"></script>
   <script type="text/javascript" src="/javascript/slick.min.js"></script>
   <script type="text/javascript" src="/javascript/slider.js"></script>
