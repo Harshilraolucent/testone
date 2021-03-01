@@ -1,11 +1,30 @@
-.logo img{
-  width: 166px;
-  padding: 0px 15px;
-}
-.left-logo{
-  padding-left:10px ;
-  height: 35px;
-  .logo{
-    padding-top: 5px;
+
+@media screen and (min-width:1025px){
+  .logo img{
+    width: 166px;
+    height: 32px;
+    // padding: 0px 15px;
   }
+  .left-logo{
+    padding-left:25px ;
+    height: 64px;
+    .logo{
+      padding-top: 5px;
+    }
+  }
+}
+@media screen and (min-width: 630px) and (max-width: 1020px){
+  .mobile-logo{
+    position: relative;
+    .logo-center{
+      position: fixed;
+      top: 57px;
+      left: 416px;
+      img{
+        width: 120px;
+        height: 22px;
+      }
+    }
+  }
+
 }

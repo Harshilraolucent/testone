@@ -1,112 +1,112 @@
-@media screen and (min-width: 1025px) and (max-width: 1400px) {
-  //hiding mobile components
-  .desk-three-bars {
-    display: none;
-  }
-  .desk-cross {
-    display: none;
-  }
-  .mobile-bag-hide {
-    display: none;
-  }
-  .mobile-icon-search {
-    display: none;
-  }
-}
+// @media screen and (min-width: 1025px) and (max-width: 1400px) {
+//   //hiding mobile components
+//   .desk-three-bars {
+//     display: none;
+//   }
+//   .desk-cross {
+//     display: none;
+//   }
+//   .mobile-bag-hide {
+//     display: none;
+//   }
+//   .mobile-icon-search {
+//     display: none;
+//   }
+// }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .mobile-three-bars {
-    .checkbtn {
-      font-size: 60px;
-      color: black;
-      float: left;
-      line-height: 80px;
-      margin-right: 40px;
-      cursor: pointer;
-      display: block;
-    }
-    #check {
-      display: none;
-    }
-    .bar {
-      font-size: 55px;
-    }
-    a:hover,
-    a.active {
-      background: none;
-      color: black;
-    }
-  }
-  .mobile-logo {
-    position: relative;
-    .logo-center {
-      position: fixed;
-      top: 57px;
-      left: 416px;
-    }
-  }
-  .mobile-cross {
-    display: none;
-  }
-  .mobile-three-bars {
-    position: fixed;
-    top: 30px;
-    left: 30px;
-  }
-  .mobile-center-content {
+// @media screen and (min-width: 768px) and (max-width: 1024px) {
+//   .mobile-three-bars {
+//     .checkbtn {
+//       font-size: 60px;
+//       color: black;
+//       float: left;
+//       line-height: 80px;
+//       margin-right: 40px;
+//       cursor: pointer;
+//       display: block;
+//     }
+//     #check {
+//       display: none;
+//     }
+//     .bar {
+//       font-size: 55px;
+//     }
+//     a:hover,
+//     a.active {
+//       background: none;
+//       color: black;
+//     }
+//   }
+//   .mobile-logo {
+//     position: relative;
+//     .logo-center {
+//       position: fixed;
+//       top: 57px;
+//       left: 416px;
+//     }
+//   }
+//   .mobile-cross {
+//     display: none;
+//   }
+//   .mobile-three-bars {
+//     position: fixed;
+//     top: 30px;
+//     left: 30px;
+//   }
+//   .mobile-center-content {
    
-    .ul-list-mobile {
-      display: block;
-      background-color: white;
-      position: fixed;
-      top: 98px;
-      left: 2px;
-      width:100%;
-    }
-  }
-  .mobile-megamenu{
-    display: block;
-  }
+//     .ul-list-mobile {
+//       display: block;
+//       background-color: white;
+//       position: fixed;
+//       top: 98px;
+//       left: 2px;
+//       width:100%;
+//     }
+//   }
+//   .mobile-megamenu{
+//     display: block;
+//   }
  
-  .right-content {
-    position: fixed;
-    top: 70px;
-    right: 21px;
-  }
-  .search {
-    display: none;
-  }
-  .desk-bag {
-    display: none;
-  }
-  .heart {
-    display: none;
-  }
-  .desk-user {
-    display: none;
-  }
+//   .right-content {
+//     position: fixed;
+//     top: 70px;
+//     right: 21px;
+//   }
+//   .search {
+//     display: none;
+//   }
+//   .desk-bag {
+//     display: none;
+//   }
+//   .heart {
+//     display: none;
+//   }
+//   .desk-user {
+//     display: none;
+//   }
 
-  .mobile-bag {
-    display: block;
-  }
-  .icon-search {
-    display: none;
-  }
-  .mobile-icon-search {
-    position: fixed;
-    top: 80px;
-    right: 65px;
-  }
-  .list-two-new-arrivals{
-    display: none;
-  }
-  .list-all-new-arrivals-mobile {
-    display: block;
-    position: fixed;
-    top: 98px;
-    left: 2px;
-  }
-}
+//   .mobile-bag {
+//     display: block;
+//   }
+//   .icon-search {
+//     display: none;
+//   }
+//   .mobile-icon-search {
+//     position: fixed;
+//     top: 80px;
+//     right: 65px;
+//   }
+//   .list-two-new-arrivals{
+//     display: none;
+//   }
+//   .list-all-new-arrivals-mobile {
+//     display: block;
+//     position: fixed;
+//     top: 98px;
+//     left: 2px;
+//   }
+// }
 
 // @media screen and (min-width: 300px) and (max-width: 767px) {
 //   .mobile-three-bars {

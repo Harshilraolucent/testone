@@ -1,11 +1,17 @@
+@media screen and (min-width:1025px){
+  .mobile-bag-hide{
+    display: none;
+  }
+  .mobile-icon-search{
+    display: none;
+  }
+
 .right-content {
-  padding-left: 60px;
-  
- 
+  padding-left: 24px;
 
   .topnav {
     margin-left: 63px;
-    
+
     display: flex;
     a {
       // padding: 5px;
@@ -13,19 +19,19 @@
       padding-top: 9px;
       // width: 23px;
       padding-right: 1px;
-     
     }
-    .heart{
-      padding-left: 17px;
+    .heart {
+      padding-left: 7px;
     }
-   
-    svg{
+
+    svg {
       padding-top: 7px;
     }
-    .form{
+    .form {
       position: relative;
       padding-top: 6px;
       .search {
+        display: block;
         border: none;
         border-bottom: 1px solid #ccc;
         padding-right: 23px;
@@ -39,26 +45,79 @@
         text-indent: 0;
         padding: 0 0 0 5px;
         font-size: 12px;
-        width: 145px;
+        width: 154px;
       }
-      .icon {
+      .icon-search {
         transform: rotate(90deg);
         color: black;
         position: absolute;
-       top: 12px;
-       left:134px;
-       
+        top: 4px;
+        left: 132px;
       }
-   
-
     }
-   
-    
+    .desk-user{
+      a{
+        margin-top: 7px;
+        padding-left: 12px;
+      }
+    }
+    .heart{
+      a{
+        margin-top: 7px;
+        padding-left: 12px;
+      }
+    }
+    .desk-bag{
+      
+        // margin-top: 7px;
+        padding-left: 15px;
+     
+    }
   }
-  
+
   a {
     color: black;
     padding: 5px;
     text-decoration: none;
+  }
+}
+
+}
+
+
+@media screen and (min-width: 630px) and (max-width: 1020px){
+  .desk-user{
+    display: none;
+  }
+  .desk-bag{
+    display: none;
+  }
+  .icon-search{
+    display: none;
+  }
+  .heart{
+    display: none;
+  }
+  .mobile-bag{
+    padding-left: 10px;
+    color: black;
+  }
+  .zero{
+    padding-left: 10px;
+    color: black;
+  }
+  .right-content{
+    position: fixed;
+    top: 55px;
+    right: 25px;
+    .topnav{
+      display: flex;
+      div{
+        a{
+          padding-left: 10px;
+          color: black;
+        }
+      }
+    }
   }
 }
